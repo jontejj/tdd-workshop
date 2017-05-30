@@ -1,4 +1,4 @@
-package se.noxfinans.tddworkshop;
+package se.noxfinans.tddworkshop.tdd;
 
 /**
  * A simple stack
