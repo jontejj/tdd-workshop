@@ -5,7 +5,9 @@ A workshop for using TDD to drive the development of the stack data structure
 
 [JUnit](http://junit.org/junit4/) is used to run the tests.
 
-Read through different assertions on: [fest assertions](https://github.com/alexruiz/fest-assert-2.x/wiki/One-minute-starting-guide)
+[Cucumber](https://cucumber.io/docs/reference#step-definitions) (similar to JBehave) can be used to write the tests in a BDD fashion.
+
+If Cucumber is not used, assertions can be made with [fest assertions](https://github.com/alexruiz/fest-assert-2.x/wiki/One-minute-starting-guide)
 
 To check for null pointer handling, check out Guava's [NullPointerTester](https://github.com/google/guava/blob/master/guava-testlib/src/com/google/common/testing/NullPointerTester.java). It's a great library for writing unit tests.
 
