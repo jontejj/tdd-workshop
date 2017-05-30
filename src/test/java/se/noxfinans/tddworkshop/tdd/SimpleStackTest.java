@@ -1,7 +1,8 @@
-package se.noxfinans.tddworkshop;
+package se.noxfinans.tddworkshop.tdd;
 
 import org.fest.assertions.Assertions;
 import org.junit.Test;
+import se.noxfinans.tddworkshop.SimpleStackImpl;
 
 public class SimpleStackTest
 {
