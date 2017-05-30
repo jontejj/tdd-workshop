@@ -5,7 +5,7 @@ A workshop for using TDD to drive the development of the stack data structure
 
 [JUnit](http://junit.org/junit4/) is used to run the tests.
 
-[Cucumber](https://cucumber.io/docs/reference#step-definitions) (similar to JBehave) can be used to write the tests in a BDD fashion.
+[Cucumber](https://cucumber.io/docs/reference#step-definitions) (similar to JBehave) can be used to write the tests in a BDD fashion. To edit .feature files, there's a gherkin plugin in IntelliJ. Also install the Cucumber for Java plugin to run the feature files.
 
 If Cucumber is not used, assertions can be made with [fest assertions](https://github.com/alexruiz/fest-assert-2.x/wiki/One-minute-starting-guide)
 
