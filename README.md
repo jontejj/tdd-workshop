@@ -9,7 +9,7 @@ Read through different assertions on: [fest assertions](https://github.com/alexr
 
 To check for null pointer handling, check out Guava's [NullPointerTester](https://github.com/google/guava/blob/master/guava-testlib/src/com/google/common/testing/NullPointerTester.java). It's a great library for writing unit tests.
 
-If there's a need for performance testing of small bits of code, [Caliper](https://github.com/google/caliper/wiki/JavaMicrobenchmarks) is a great tool to measure performance. [Best Practices for using Caliper](https://github.com/google/caliper/wiki/BestPractices)
+If there's a need for performance testing of small bits of code, [Caliper](https://github.com/google/caliper/wiki/JavaMicrobenchmarks) is a great tool to measure performance. [Best Practices](https://github.com/google/caliper/wiki/BestPractices). [Examples](https://github.com/google/caliper/blob/master/caliper-examples/src/main/java/examples/ContainsBenchmark.java)
 
 To ensure that we are using TDD, this project is using [pitest](http://pitest.org/).
 
