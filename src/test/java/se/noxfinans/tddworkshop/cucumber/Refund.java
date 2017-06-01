@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 import static org.fest.assertions.Assertions.*;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin = {"pretty", "html:target/cucumber"}, features = {"refund"})
+@CucumberOptions(plugin = {"pretty", "html:target/cucumber"})
 public class Refund implements En
 {
 	/**
